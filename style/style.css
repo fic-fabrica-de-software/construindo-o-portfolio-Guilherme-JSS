@@ -1,15 +1,16 @@
-*{
-  background-image: url(./imagens/escaco.jpg) ;
+* {
+  background-image: url(./imagens/space.jpg);
   background-repeat: no-repeat;
+  /* background-size: cover;  */
 }
- 
 
-#cabecalho{
-    align-items: center;
-    display: flex;
-    gap: 30px;
-    text-align: center;
-    justify-content: right;
-    color: white;
-    padding: 0px 100px;
+
+#cabecalho {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  justify-content: right;
+  color: white;
+  padding: 0px 100px;
 }
