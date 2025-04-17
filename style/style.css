@@ -1,7 +1,13 @@
-  #cabecalho{
+*{
+  background-image: url(./imagens/espace.jpg) ;
+}
+
+#cabecalho{
     align-items: center;
     display: flex;
     gap: 30px;
     text-align: center;
     justify-content: right;
+    color: white;
+    padding: 0px 100px;
 }
