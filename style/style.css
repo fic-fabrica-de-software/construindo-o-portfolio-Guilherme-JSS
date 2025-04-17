@@ -1,6 +1,8 @@
 *{
-  background-image: url(./imagens/espace.jpg) ;
+  background-image: url(./imagens/escaco.jpg) ;
+  background-repeat: no-repeat;
 }
+ 
 
 #cabecalho{
     align-items: center;
