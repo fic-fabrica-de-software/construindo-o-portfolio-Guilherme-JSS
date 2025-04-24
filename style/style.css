@@ -1,7 +1,7 @@
-* {
+body {
   background-image: url(./imagens/space.jpg);
   background-repeat: no-repeat;
-  /* background-size: cover;  */
+   background-size: cover;  
 }
 
 
@@ -13,4 +13,16 @@
   justify-content: right;
   color: white;
   padding: 0px 100px;
+}
+
+#foto{
+  padding: 30px;
+
+}
+
+#pessoa{
+  background-color: black;
+ width: 20%;
+ justify-content: right;
+
 }
