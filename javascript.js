@@ -11,9 +11,10 @@ foguete.addEventListener('mouseleave', () => {
 })
 
 document.addEventListener('mousemove', (e) => {
-    if (seguindo) {
-        const x = e.clientX 
-        const y = e.clientY
-        foguete.style.transform = `translate(${x}px, ${y}px)`;
+    if (seguir) {
+        const x = e.clientX  ;
+        const y = e.clientY ;
+        foguete.style.top = `${y}px`;
+        foguete.style.left = `${x}px`;
     }
-})
+});
