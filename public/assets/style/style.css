@@ -86,4 +86,8 @@ header ul {
 }
 
 
-.habilidades {}
+.habilidades {
+  background-color: aliceblue;
+  width: 30%;
+
+}
