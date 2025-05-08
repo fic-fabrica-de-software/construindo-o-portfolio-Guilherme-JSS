@@ -23,16 +23,29 @@ body {
 }
 
 #foto {
-  padding: 30px;
+  padding: 15px 0px 10px 10px;
+  width: 100px;
+  height: auto;
 
 }
+
+#pessoa img{
+  border-radius: 40%;
+}
+
+
 
 #pessoa {
-  background-color: black;
-  width: 20%;
+  margin: 50px;
+  width: 300px;
+  height: 160px;
   justify-content: right;
-
+  display: flex;
+  color: darkgrey;
+  margin-left: auto;
+  align-items: center;
 }
+
 
 header ul {
   padding: 10px;
@@ -58,3 +71,11 @@ header ul {
  color: white;
 }
 
+.rodape{
+  text-align: center;
+    padding: 1.5rem 0;
+    color: #b3e0ff;
+    margin-top: 4rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
