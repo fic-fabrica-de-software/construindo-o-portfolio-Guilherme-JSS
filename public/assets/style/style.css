@@ -74,7 +74,7 @@ header ul {
 
 
 #habilidades {
-  padding: 200px;
+  padding: 0px;
   color: white;
 }
 
@@ -89,10 +89,12 @@ header ul {
 
 
 .habilidades {
-  background-color: aliceblue;
+  background-color: rgb(107, 96, 96);
   width: 50%;
   height: 200px;
   margin: 30px;
   border-radius: 50px;
   padding: 40px 0 0 10px;
+  color: whitesmoke;
+  margin-left: auto ;
 }
