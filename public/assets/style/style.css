@@ -98,3 +98,14 @@ header ul {
   color: whitesmoke;
   margin-left: auto ;
 }
+
+
+#extras{
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#projects{
+  background-color: transparent;
+}
