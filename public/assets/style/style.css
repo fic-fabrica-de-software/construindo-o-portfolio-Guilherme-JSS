@@ -17,9 +17,14 @@ body {
   display: flex;
   gap: 30px;
   text-align: center;
-  justify-content: right;
-  color: white;
+  justify-content: space-between;
+  color: rgb(107, 96, 96);
   padding: 0px 100px;
+}
+
+#cabecalho a{
+  text-decoration: none;
+  color: rgb(107, 96, 96);;
 }
 
 #foto {
@@ -46,15 +51,15 @@ body {
   align-items: center;
 }
 
-/*
-header ul {
+
+header {
   padding: 10px;
   list-style: none;
   display: flex;
   justify-items: center;
   gap: 100px;
 }
-*/
+
 
 #foguete {
   width: 50px;
@@ -102,7 +107,7 @@ header ul {
 
 #extras{
   align-items: center;
-  color: white;
+  color: rgb(107, 96, 96);
   text-align: center;
 }
 
