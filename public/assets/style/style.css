@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(./imagens/space.jpg);
+  background-image: url(https://cdn.pixabay.com/animation/2024/07/23/19/52/19-52-56-478_512.gif);  /*ou https://i.pinimg.com/originals/5f/f1/36/5ff136fc1e10644e45cbde3de06ec77e.gif*/
   background-repeat: no-repeat;
   background-size: cover;
 }
