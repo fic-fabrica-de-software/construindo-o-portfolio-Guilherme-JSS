@@ -1,5 +1,4 @@
 const foguete = document.getElementById('foguete');
-
 let seguir = false;
 
 foguete.addEventListener('mouseenter', () => {
@@ -7,7 +6,7 @@ foguete.addEventListener('mouseenter', () => {
 })
 
 foguete.addEventListener('mouseleave', () => {
-    seguindo = false
+    seguindo = false ;
 })
 
 document.addEventListener('mousemove', (e) => {
