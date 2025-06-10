@@ -60,21 +60,12 @@ header {
 
 
 #foguete {
-  position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   top:200px;
-  
-  transform: translate(-50%, -50%);
+  position: relative;
   transition: top 0.05s linear, left 0.05s linear;
-  z-index: 999;
-  pointer-events: none; /* <- ESSENCIAL */
-}
-
-
-#foguete img {
-  width: 150%;
-  height: 150%;
+  z-index: 1;
 }
 
 
@@ -96,13 +87,13 @@ header {
 
 .habilidades {
   background-color: rgb(107, 96, 96);
-  width: 50%;
+  width: 46%;
   height: 200px;
-  margin: 30px;
+  margin: 2%;
   border-radius: 50px;
   padding: 40px 0 0 10px;
-  color: whitesmoke;
   margin-left: auto ;
+
 }
 
 
@@ -138,12 +129,45 @@ header {
 }
 
 #introducao{
-   height: 100vh; /* ocupa 100% da altura da viewport */
+   height: 100vh; 
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
 
+}
+
+
+.orbit-sun {
+  position: relative;
+  width: 200px; height: 200px;
+  margin: auto;
+  background: radial-gradient(circle, #ffcc00 20%, transparent 21%);
+  border-radius: 50%;
+}
+
+.planet {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 20px; height: 20px;
+  background: #00ccff;
+  border-radius: 50%;
+}
+
+.orbit1 {
+  animation: orbit1 6s linear infinite;
+}
+.orbit2 {
+  animation: orbit2 10s linear infinite;
+  width: 14px; height: 14px; background: #ff6699;
+}
+
+@keyframes orbit1 {
+  from { transform: rotate(0deg) translateX(80px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(80px) rotate(-360deg); }
+}
+@keyframes orbit2 {
+  from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
 }
