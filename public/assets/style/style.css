@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: ;
   font-family: "Russo One", sans-serif;
 }
 
@@ -39,14 +38,13 @@ body {
 }
 
 
-
 #pessoa {
   margin: 50px;
   width: 300px;
   height: 160px;
   justify-content: right;
   display: flex;
-  color: darkgrey;
+  color: yellow;
   margin-left: auto;
   align-items: center;
 }
@@ -118,14 +116,16 @@ header {
   background-color: transparent;
 }
 
-#SobreMim{
+#Sobre{
+  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
 }
 
-.sobremim{
-  background-color: rgb(107, 96, 96);
+#sobremim{
+  background-color: rgba(0, 0, 0, 0.1);
   width: 50%;
   height: 150px;
   border-radius: 50px;
@@ -134,4 +134,16 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center;
+    font-size: 1.2rem;
+}
+
+#introducao{
+   height: 100vh; /* ocupa 100% da altura da viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
 }

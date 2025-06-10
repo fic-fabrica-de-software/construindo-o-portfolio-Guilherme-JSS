@@ -6,7 +6,7 @@ foguete.addEventListener('mouseenter', () => {
 })
 
 foguete.addEventListener('mouseleave', () => {
-    seguindo = false ;
+    seguir = false ;
 })
 
 document.addEventListener('mousemove', (e) => {
