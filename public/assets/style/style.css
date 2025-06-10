@@ -117,3 +117,21 @@ header {
 #projects{
   background-color: transparent;
 }
+
+#SobreMim{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sobremim{
+  background-color: rgb(107, 96, 96);
+  width: 50%;
+  height: 150px;
+  border-radius: 50px;
+  padding: 20px 0 0 0px;
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
