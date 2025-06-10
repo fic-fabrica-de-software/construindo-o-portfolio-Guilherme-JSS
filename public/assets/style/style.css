@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Russo One", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -163,6 +164,19 @@ header {
   width: 14px; height: 14px; background: #ff6699;
 }
 
+.orbit3 {
+  animation: orbit3 13s linear infinite;
+  width: 16px; height: 16px; background: #66e0ff;
+}
+.orbit4 {
+  animation: orbit4 16s linear infinite;
+  width: 18px; height: 18px; background: #8aff66;
+}
+.orbit5 {
+  animation: orbit5 20s linear infinite;
+  width: 22px; height: 22px; background: #ffffff;
+}
+
 @keyframes orbit1 {
   from { transform: rotate(0deg) translateX(80px) rotate(0deg); }
   to   { transform: rotate(360deg) translateX(80px) rotate(-360deg); }
@@ -170,4 +184,16 @@ header {
 @keyframes orbit2 {
   from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
   to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+@keyframes orbit3 {
+  from { transform: rotate(0deg) translateX(120px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(120px) rotate(-360deg); }
+}
+@keyframes orbit4 {
+  from { transform: rotate(0deg) translateX(140px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(140px) rotate(-360deg); }
+}
+@keyframes orbit5 {
+  from { transform: rotate(0deg) translateX(180px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(180px) rotate(-360deg); }
 }
