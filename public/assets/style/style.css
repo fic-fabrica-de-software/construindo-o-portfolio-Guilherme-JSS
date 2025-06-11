@@ -163,60 +163,82 @@ header {
 
 .mercurio {
   animation: mercurio 1s linear infinite;
+  width: 12px;
+  height: 12px;
 }
 
 .venus {
   animation: venus 2s linear infinite;
-  width: 14px;
-  height: 14px;
+  width: 26px;
+  height: 26px;
   background: #ff6699;
 }
 
 .terra {
   animation: terra 4s linear infinite;
-  width: 16px;
-  height: 16px;
+  width: 26px;
+  height: 26px;
   background: #66e0ff;
 }
 
 .marte {
   animation: marte 7s linear infinite;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   background: #8aff66;
 }
 
 .jupiter {
   animation: jupiter 21s linear infinite;
-  width: 22px;
-  height: 22px;
-  background: #ffffff;
+  width: 76px;
+  height: 76px;
+  background: #c41414;
 }
 
 .saturno {
   animation: saturno 26s linear infinite;
-  width: 22px;
-  height: 22px;
-  background: #ffffff;
+  width: 62px;
+  height: 62px;
+  background: #cc5050;
 }
 
 .urano {
   animation: urano 30s linear infinite;
-  width: 22px;
-  height: 22px;
+  width: 45px;
+  height: 45px;
   background: #ffffff;
 }
 
 .netuno {
   animation: netuno 50s linear infinite;
-  width: 22px;
-  height: 22px;
+  width: 42px;
+  height: 42px;
   background: #0454ff;
 }
 
 @keyframes mercurio {
   from {
-    transform: rotate(0deg) translateX(80px) rotate(0deg);
+    transform: rotate(0deg) translateX(40px) rotate(-0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(40px) rotate(-360deg);
+  }
+}
+
+@keyframes venus {
+  from {
+    transform: rotate(0deg) translateX(60px) rotate(-0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(60px) rotate(-360deg);
+  }
+}
+
+@keyframes terra {
+  from {
+    transform: rotate(0deg) translateX(80px) rotate(-0deg);
   }
 
   to {
@@ -224,9 +246,9 @@ header {
   }
 }
 
-@keyframes venus {
+@keyframes marte {
   from {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
+    transform: rotate(0deg) translateX(100px) rotate(-0deg);
   }
 
   to {
@@ -234,19 +256,9 @@ header {
   }
 }
 
-@keyframes terra {
+@keyframes jupiter {
   from {
-    transform: rotate(0deg) translateX(120px) rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg) translateX(120px) rotate(-360deg);
-  }
-}
-
-@keyframes marte {
-  from {
-    transform: rotate(0deg) translateX(140px) rotate(0deg);
+    transform: rotate(0deg) translateX(140px) rotate(-0deg);
   }
 
   to {
@@ -254,9 +266,9 @@ header {
   }
 }
 
-@keyframes jupiter {
+@keyframes saturno {
   from {
-    transform: rotate(0deg) translateX(180px) rotate(0deg);
+    transform: rotate(0deg) translateX(180px) rotate(-0deg);
   }
 
   to {
@@ -264,32 +276,22 @@ header {
   }
 }
 
-@keyframes saturno {
-  from {
-    transform: rotate(0deg) translateX(260px) rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg) translateX(260px) rotate(-360deg);
-  }
-}
-
 @keyframes urano {
   from {
-    transform: rotate(0deg) translateX(290px) rotate(0deg);
+    transform: rotate(0deg) translateX(220px) rotate(-0deg);
   }
 
   to {
-    transform: rotate(360deg) translateX(290px) rotate(-360deg);
+    transform: rotate(360deg) translateX(220px) rotate(-360deg);
   }
 }
 
 @keyframes netuno {
   from {
-    transform: rotate(0deg) translateX(310px) rotate(0deg);
+    transform: rotate(0deg) translateX(260px) rotate(-0deg);
   }
 
   to {
-    transform: rotate(360deg) translateX(310px) rotate(-360deg);
+    transform: rotate(360deg) translateX(260px) rotate(-360deg);
   }
 }
