@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: url(https://cdn.pixabay.com/animation/2024/07/23/19/52/19-52-56-478_512.gif);  /*ou https://i.pinimg.com/originals/5f/f1/36/5ff136fc1e10644e45cbde3de06ec77e.gif*/
+  background-image: url(https://cdn.pixabay.com/animation/2024/07/23/19/52/19-52-56-478_512.gif);
+  /*ou https://i.pinimg.com/originals/5f/f1/36/5ff136fc1e10644e45cbde3de06ec77e.gif*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,9 +23,10 @@ body {
   padding: 0px 100px;
 }
 
-#cabecalho a{
+#cabecalho a {
   text-decoration: none;
-  color: rgb(107, 96, 96);;
+  color: rgb(107, 96, 96);
+  ;
 }
 
 #foto {
@@ -63,7 +65,7 @@ header {
 #foguete {
   width: 60px;
   height: 60px;
-  top:200px;
+  top: 200px;
   position: relative;
   transition: top 0.05s linear, left 0.05s linear;
   z-index: 1;
@@ -93,22 +95,22 @@ header {
   margin: 2%;
   border-radius: 50px;
   padding: 40px 0 0 10px;
-  margin-left: auto ;
+  margin-left: auto;
 
 }
 
 
-#extras{
+#extras {
   align-items: center;
   color: rgb(107, 96, 96);
   text-align: center;
 }
 
-#projects{
+#projects {
   background-color: transparent;
 }
 
-#Sobre{
+#Sobre {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +118,7 @@ header {
   width: 100%;
 }
 
-#sobremim{
+#sobremim {
   background-color: rgba(0, 0, 0, 0.1);
   width: 50%;
   height: 150px;
@@ -126,11 +128,11 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center;
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-#introducao{
-   height: 100vh; 
+#introducao {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +144,8 @@ header {
 
 .orbit-sun {
   position: relative;
-  width: 200px; height: 200px;
+  width: 200px;
+  height: 200px;
   margin: auto;
   background: radial-gradient(circle, #ffcc00 20%, transparent 21%);
   border-radius: 50%;
@@ -150,50 +153,143 @@ header {
 
 .planet {
   position: absolute;
-  top: 50%; left: 50%;
-  width: 20px; height: 20px;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
   background: #00ccff;
   border-radius: 50%;
 }
 
-.orbit1 {
-  animation: orbit1 6s linear infinite;
-}
-.orbit2 {
-  animation: orbit2 10s linear infinite;
-  width: 14px; height: 14px; background: #ff6699;
+.mercurio {
+  animation: mercurio 1s linear infinite;
 }
 
-.orbit3 {
-  animation: orbit3 13s linear infinite;
-  width: 16px; height: 16px; background: #66e0ff;
-}
-.orbit4 {
-  animation: orbit4 16s linear infinite;
-  width: 18px; height: 18px; background: #8aff66;
-}
-.orbit5 {
-  animation: orbit5 20s linear infinite;
-  width: 22px; height: 22px; background: #ffffff;
+.venus {
+  animation: venus 2s linear infinite;
+  width: 14px;
+  height: 14px;
+  background: #ff6699;
 }
 
-@keyframes orbit1 {
-  from { transform: rotate(0deg) translateX(80px) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(80px) rotate(-360deg); }
+.terra {
+  animation: terra 4s linear infinite;
+  width: 16px;
+  height: 16px;
+  background: #66e0ff;
 }
-@keyframes orbit2 {
-  from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+
+.marte {
+  animation: marte 7s linear infinite;
+  width: 18px;
+  height: 18px;
+  background: #8aff66;
 }
-@keyframes orbit3 {
-  from { transform: rotate(0deg) translateX(120px) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(120px) rotate(-360deg); }
+
+.jupiter {
+  animation: jupiter 21s linear infinite;
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
 }
-@keyframes orbit4 {
-  from { transform: rotate(0deg) translateX(140px) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(140px) rotate(-360deg); }
+
+.saturno {
+  animation: saturno 26s linear infinite;
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
 }
-@keyframes orbit5 {
-  from { transform: rotate(0deg) translateX(180px) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(180px) rotate(-360deg); }
+
+.urano {
+  animation: urano 30s linear infinite;
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
+}
+
+.netuno {
+  animation: netuno 50s linear infinite;
+  width: 22px;
+  height: 22px;
+  background: #0454ff;
+}
+
+@keyframes mercurio {
+  from {
+    transform: rotate(0deg) translateX(80px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(80px) rotate(-360deg);
+  }
+}
+
+@keyframes venus {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}
+
+@keyframes terra {
+  from {
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(120px) rotate(-360deg);
+  }
+}
+
+@keyframes marte {
+  from {
+    transform: rotate(0deg) translateX(140px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(140px) rotate(-360deg);
+  }
+}
+
+@keyframes jupiter {
+  from {
+    transform: rotate(0deg) translateX(180px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(180px) rotate(-360deg);
+  }
+}
+
+@keyframes saturno {
+  from {
+    transform: rotate(0deg) translateX(260px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(260px) rotate(-360deg);
+  }
+}
+
+@keyframes urano {
+  from {
+    transform: rotate(0deg) translateX(290px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(290px) rotate(-360deg);
+  }
+}
+
+@keyframes netuno {
+  from {
+    transform: rotate(0deg) translateX(310px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(310px) rotate(-360deg);
+  }
 }
