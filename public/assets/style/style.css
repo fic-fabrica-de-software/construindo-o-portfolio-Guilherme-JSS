@@ -141,6 +141,17 @@ header {
 
 }
 
+.titulo{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+
+
 .sistema-solar{
   width: 100%;
   justify-content: center;
